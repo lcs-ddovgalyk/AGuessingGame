@@ -10,6 +10,17 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
+    //PROPERTIES
+    let targetNumber = Int.random(in: 1...100)
+    
+    //INITIALIZERS
+    
+    
+    //BEHAVIOURS (functions)
+    
+    
+    
     //runs as soon as the view becomes visible to the user
     override func viewDidLoad() {
         super.viewDidLoad()
